@@ -1,14 +1,14 @@
 start
 new bank string 
-set bank = "Тинькофф"
+set bank  Tinkoff
 new hoz string 
-set hoz = "Алёна Прокофьева"
+set hoz Alena_Kozlova
 new num string 
-set num = "2020 3030 4040 5050"
-new cvv string 
-set cvv = "405"
+set num 2020_3030_4040_5050
+new cvv number 
+set cvv 405
 new date string 
-set date = "03/2030"
+set date  03/2030
 log string " _______________________________"
 log string "| " << bank << "                   |"
 log string "| " << hoz << "                    |"
