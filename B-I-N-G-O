@@ -1,8 +1,13 @@
 start
-new B string
-new I string
-new N string
-new G string
-new O string
-log string B << "-" << I << "-" << N << "-" << G << "-" << O
+new b string
+set b B
+new i string
+set i I
+new n string
+set n N
+new g string
+set g G
+new o string
+set o O
+log string b << "-" << i << "-" << n << "-" << g << "-" << o
 finish
