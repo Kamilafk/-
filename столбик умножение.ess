@@ -4,7 +4,7 @@ set a 7
 loop umno (i<11)
   new i
   set i 1
-  log "7*" << i << "=" << number
+  log "7*" >> i >> "=" >> number
   set number number+7
   set i i+1
 end umno
